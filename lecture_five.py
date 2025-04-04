@@ -54,10 +54,54 @@ numbs = (1,4,9,16,25,36,49,64,25,81,100)
 # while idx < len(numbs):
 #     if numbs[idx] == x:
 #         print("Found at index", idx)
-#         # break
 #     else:
 #         print("Finding...")
 #     idx +=1
 
 
 
+
+# Break & continue
+# Break: used to terminate the loop when encountered.
+# Continue: terminates execution in the current iteration & continues execution of the loop
+
+
+
+# x = 25
+# idx = 0
+# while idx < len(numbs):
+#     if numbs[idx] == x:
+#         print("Found at index", idx)
+#         break
+#     else:
+#         print("Finding...")
+#     idx +=1
+
+
+# i = 0
+# while i <= 5:
+#     if(i == 3):
+#         i += 1
+#         continue # skip # number 3 never print
+#     print(i)
+#     i += 1
+
+# print only odd numbers 
+# i = 1
+# while i <= 20:
+#     if(i % 2 == 0):
+#         i += 1
+#         continue # skip # number 3 never print
+#     print(i)
+#     i += 1
+
+
+    
+# print only even numbers 
+# i = 1
+# while i <= 20:
+#     if(i % 2 != 0):
+#         i += 1
+#         continue # skip # number 3 never print
+#     print(i)
+#     i += 1
